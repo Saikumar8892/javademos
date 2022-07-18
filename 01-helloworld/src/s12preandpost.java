@@ -14,7 +14,9 @@ public class s12preandpost {
 		String x = null;
 		if (x!=null) {
 			System.out.println("x has a value");
-		} else {
+		} 
+		else 
+		{
 			System.out.println("x does not have a value");
 		}
 		

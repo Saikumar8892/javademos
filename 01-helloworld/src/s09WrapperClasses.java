@@ -1,6 +1,5 @@
 
-
-public class wrapperclass {
+public class s09WrapperClasses {
 
 	public static void main(String[] args) {
 		
