@@ -3,8 +3,10 @@ package assistedproject1;
 public class TypeCasting {
 
 	public static void main(String[] args) {
-		int a = 20;
+		byte a = 20;
 		System.out.println("value of:"+a);
+		int b = a;
+		System.out.println("value of:"+b);
 		long l = a;
 		System.out.println("value of:"+l);
 		double d = a;
