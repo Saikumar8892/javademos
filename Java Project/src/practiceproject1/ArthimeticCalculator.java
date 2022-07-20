@@ -17,7 +17,7 @@ public class ArthimeticCalculator {
 		System.out.println("Enter operator(+,-,*,/,%)");
 		char operator = calculate.next().charAt(0);
 		
-		double result = 0.0;
+		double result = 0;
 		switch(operator) {
 		case '+':
 			result = num1+num2;
