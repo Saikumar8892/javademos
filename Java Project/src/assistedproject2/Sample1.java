@@ -1,6 +1,6 @@
 package assistedproject2;
 
-public class Sample1 {
+class Sample1 {
 
 	private int number = 20;
 	private String name = "SAI";
