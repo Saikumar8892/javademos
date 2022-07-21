@@ -12,5 +12,6 @@ public class example {
 		catch(Exception c) {
 			System.out.println("welcome simplilearn platform");
 		}
+		
 	}
 }

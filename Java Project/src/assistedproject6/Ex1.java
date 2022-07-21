@@ -1,21 +1,27 @@
 package assistedproject6;
 
-import java.lang.reflect.Array;
+import java.util.Scanner;
 
 public class Ex1 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)  {
+		
+		int a, b, c, d;
+		System.out.println("Enter two integers");
 		try {
-			int a = 10;
-			int b = 10;
-			int c = a/b;
-			int a1[] = {1,2,3,4,5};
-			System.out.println(a1[5]);
-			System.out.println(c);	
+			Scanner scanner = new Scanner(System.in);
+			a = scanner.nextInt();
+			b = scanner.nextInt();
+			c = a/b;
+			d = a+b;
+			System.out.println(a + "+" + b+" = " + c +", Remainder = " + d);
 		}
-		catch ( Exception e) {
+		catch (ArithmeticException e) {
 			System.out.println("Sai kumar");
 		}
+	 catch (ArrayIndexOutOfBoundsException e) {
+		System.out.println("Input is required.");
+	 }
 		finally {
 			System.out.println("Hello sai");
 		}
