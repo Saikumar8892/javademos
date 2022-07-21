@@ -2,13 +2,14 @@ package assistedproject6;
 
 import java.util.Scanner;
 
-public class Ex1 {
+public class ExceptionHandling {
 
 	public static void main(String[] args)  {
 		
 		int a, b, c, d;
 		System.out.println("Enter two integers");
 		try {
+			@SuppressWarnings("resource")
 			Scanner scanner = new Scanner(System.in);
 			a = scanner.nextInt();
 			b = scanner.nextInt();
