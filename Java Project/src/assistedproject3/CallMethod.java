@@ -1,6 +1,6 @@
-package assistedprojects;
+package assistedproject3;
 
-public class callMethod {
+public class CallMethod {
 
 
    int val=10;
@@ -10,7 +10,7 @@ public class callMethod {
 	}
 
 	public static void main(String args[]) {
-		callMethod d = new callMethod();
+		CallMethod d = new CallMethod();
 		System.out.println("Before operation value of data is "+d.val);
 		d.operation(0);
 		System.out.println("After operation value of data is "+d.val);
