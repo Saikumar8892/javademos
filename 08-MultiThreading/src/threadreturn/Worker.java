@@ -20,7 +20,7 @@ int num;
 		String tname = Thread.currentThread().getName();
 		System.out.println(tname + ": Calculation begin for " + num);
 		int total = 0;
-		for (int i = 5; i <= num; i++) {
+		for (int i = 1; i <= num; i++) {
 			total += i;
 		}
 		Thread.sleep(1000);
