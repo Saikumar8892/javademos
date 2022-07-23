@@ -1,0 +1,14 @@
+File Handling program
+
+Aim:- To write a program to determine the File handling using java
+
+
+Alogorithm :-
+step1:-start the program
+step2:-create a packages after import the util&io packages 
+step3:-after create a class name as create,read,write
+step4: first create a file wheater you can check that file is created or not 
+step5:-after created file write class create and give some data that file
+step5:-after given data is you can read create read class file that method u can calling write file
+step6:-after print data
+step7:-stop the program

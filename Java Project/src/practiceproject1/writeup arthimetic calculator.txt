@@ -1,0 +1,15 @@
+
+ARTHIMETIC CALCULATOR PROGRAM
+
+
+Aim : To implement the arthimetic calculator program using java
+
+Alogorithm
+step1:start the program
+step2:create a class given name as ArthimeticCalculator
+step3:after giving class name also given main method after creating scanner class.
+step4:create a characters & integers  num1,num2, using double 
+step5:After giving the operators after giving print operators 
+step6: in this program we can ues switch case 
+step7:after print these method gives result
+step8:stop the program

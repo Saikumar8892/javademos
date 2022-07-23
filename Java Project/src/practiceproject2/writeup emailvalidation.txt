@@ -1,0 +1,13 @@
+EmailValidationprogram
+
+
+Aim:- To write a program to determine the EmailValidation using java
+
+
+Alogorithm :-
+step1:-start the program
+step2:-create a packages after import the util packages regex&matcher
+step3:-after create a class name as EmailValidation 
+step4:-In this program we use boolean wheater the given mail is correct print valid
+step5:-or else print invalid
+step6:-stop the program.
