@@ -8,7 +8,7 @@ public class WriteFile {
 	public static void main(String[] args) {
 		try {
 			FileWriter myWriter = new FileWriter("H:\\Sai.txt");
-			myWriter.write("Welcome to simplilearn");
+			myWriter.write("Welcome to simplilearn in java");
 			myWriter.close();
 			System.out.println("updated data sucessfully");
 		} catch (IOException e) {
